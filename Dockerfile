@@ -1,4 +1,4 @@
-FROM alpine:3.9.3
+FROM alpine:3.9.4
 LABEL maintainer "Sebastian Daehne <daehne@rshc.de>"
 
 RUN apk update && apk upgrade && apk add --no-cache snapcast-server
